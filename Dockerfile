@@ -1,5 +1,5 @@
-# FROM krmp-d2hub-idock.9rum.cc/goorm/node:16
-FROM node:16.13.1
+FROM krmp-d2hub-idock.9rum.cc/goorm/node:16.13.1
+# FROM node:16.13.1
 WORKDIR /usr/src/app
 COPY ./ ./
 
